@@ -39,6 +39,17 @@ class main{
 	    week4::display('Oops'.'<br>');}
 	    week4::display('<br>');
 
+	    week4::display('To search for / in $date and print position'.'<br>');
+	    week4::display('position ');
+	    for($i=0;$i<strlen($date1);$i++){
+		if($date1[$i]=='/'){
+			week4::display($i.' ');
+			}
+		}
+	    week4::display('<br>');
+            week4::display('<br>');
+
+
 
 
 
