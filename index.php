@@ -78,16 +78,33 @@ class main{
 	     }
 	    week4::display('<br>');
 	    week4::display('<br>');
-									
-
-
-
-
-
-
-
-
-
+         
+      week4::display('To find leap year using while loop'.'<br>');
+        $count=count($year);
+        $i=0;
+        while($i<$count){
+        if ($year[$i]%4==0){
+            week4::display('True ');
+            }
+        else{
+            week4::display('False ');
+            }
+        $i++;
+        }
+        week4::display('<br>');
+        week4::display('<br>');
+        week4::display('To display leap year using switch'.'<br>');
+        foreach($year as $val){
+            $rem=$val%4;
+            switch ($rem){
+                case 0:
+                    week4::display('True ');
+                    break;
+                default:
+                    week4::display('False ');
+                    break;
+                        }
+        }
 	    }
 }
 
@@ -99,8 +116,4 @@ class week4{
 	    print_r($myArray);
 		}    
 }
-
-
-
-
 ?>
