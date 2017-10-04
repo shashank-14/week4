@@ -49,6 +49,20 @@ class main{
 	    week4::display('<br>');
             week4::display('<br>');
 
+	    week4::display('To count number of words'.'<br>');
+	    $word=count(explode(" ",$date1));
+	    week4::display($word.'<br>');
+	    week4::display('<br>');
+
+	    week4::display('To print length of string'.'<br>');
+	    $string1="hi this is new string.";
+	    $len=strlen($string1);
+            week4::display('New String is :'.$string1.'<br>');
+            week4::display('Length of string is :'.$len.'<br>');
+	    week4::display('<br>');
+
+
+
 
 
 
