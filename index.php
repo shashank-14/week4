@@ -25,6 +25,12 @@ class main{
             week4::display('<br>');
    	    week4::display('<br>');
 
+	    week4::display('To replace - with / in date'.'<br>');
+	    $date1=str_replace("-","/",$date);
+	    week4::display($date1.'<br>');
+            week4::display('<br>');
+
+
 
 
 	    }
