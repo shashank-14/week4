@@ -61,7 +61,7 @@ class main{
             week4::display('Length of string is :'.$len.'<br>');
 	    week4::display('<br>');
 
-	    week4::display('To display ASCII value of first character'.'<br>');
+	    week4::display('To display ASCII value of first character in new string'.'<br>');
 	    $value=ord(substr($string1,0,1));
 	    week4::display('ASCII value of h is '.$value.'<br>');
 	    week4::display('<br>');
@@ -69,6 +69,16 @@ class main{
 	    week4::display('To return last two characters of $date'.'<br>');
 	    week4::display('Last two charcters are :'.substr($date,-2).'<br>');
 	    week4::display('<br>');
+
+	    week4::display('To break with / and print each element'.'<br>');
+	    $dateElements=explode("/",$date1);
+	    week4::display('Elements are : ');
+            for($i=0;$i<count($dateElements);$i++){
+            week4::display($dateElements[$i]." ");
+	     }
+	    week4::display('<br>');
+	    week4::display('<br>');
+									
 
 
 
