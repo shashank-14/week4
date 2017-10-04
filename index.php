@@ -30,6 +30,16 @@ class main{
 	    week4::display($date1.'<br>');
             week4::display('<br>');
 
+	    week4::display('To compare date and tar'.'<br>');
+	    if (strcmp($date,$tar)>0){
+	    week4::display('The future'.'<br>');}
+	    elseif (strcmp($date,$tar)<0){
+	    week4::display('Past'.'<br>');}
+	    else{
+	    week4::display('Oops'.'<br>');}
+	    week4::display('<br>');
+
+
 
 
 
