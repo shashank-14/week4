@@ -20,7 +20,8 @@ class main{
 	    $tar='2017/05/24';
 	    week4::display('Value of $tar '.$tar.'<br>');
 	    $year=array(2012,396,300,2000,1100,1089);
-	    week4::printArray('Value of $year ');
+	    week4::display('Value of $year ');
+	    week4::printArray($year);
             week4::display('<br>');
    	    week4::display('<br>');
 
