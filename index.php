@@ -78,7 +78,20 @@ class main{
 	     }
 	    week4::display('<br>');
 	    week4::display('<br>');
-         
+      
+      week4::display('To find leap year using foreach loop'.'<br>');
+        foreach ($year as $val)
+        {
+            if($val%4==0){
+                week4::display('True ');
+            }
+            else{
+                week4::display('False ');
+            }
+        }
+        week4::display('<br>');
+        week4::display('<br>');
+
       week4::display('To find leap year using while loop'.'<br>');
         $count=count($year);
         $i=0;
